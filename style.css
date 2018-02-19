@@ -1,0 +1,52 @@
+body{
+	background-color: #f4f4f4;
+	font-family: sans-serif, tahoma;
+	line-height: 2.0em;
+
+}
+
+#main-header{
+	background-color: blue;
+	color: white;
+	height: 100px;
+	width: 100%;
+	overflow: auto;
+	text-align: center;
+}
+
+#main-nav{
+	background-color: #dcdcdc;
+	
+}
+
+#main-nav a:hover {
+	color: red;
+}
+
+#main-nav ul{
+	padding: 0px;
+	list-style: none;
+
+}
+
+#main-nav li{
+	display: inline;
+	background-color: black;
+}
+
+#main-nav a{
+	text-decoration: none;
+	font-family: comic;
+	color: e8e8e8;
+	padding: 10px;
+	font-size: 20px;
+	margin: auto;
+}
+
+#welcome{
+	border-top: 2px dashed #f4f4f4;
+	border-bottom: 2px solid #f4f4f4;
+	border-width: auto;
+	background-color: blue;
+}
+
